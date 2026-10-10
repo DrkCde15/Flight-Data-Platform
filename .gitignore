@@ -1,0 +1,23 @@
+# Configuração e segredos
+.env
+
+# Service account keys
+*.json
+!README.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Databricks / Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Temp
+*.tmp
